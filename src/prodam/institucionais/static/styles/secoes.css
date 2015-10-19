@@ -1,0 +1,610 @@
+/* Reseta css plone */
+
+
+dl.portlet ul.navTree.navTreeLevel0 li a {
+  border-left: 5px solid transparent;
+  display: table;
+  width: 125px;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li a:hover {
+  color: white !important;
+}
+
+
+/* Redefine largura das colunas */
+
+.secao-tres-colunas.portaltype-service #portal-column-one,
+.secao-tres-colunas.portaltype-topic #portal-column-one,
+.secao-tres-colunas.portaltype-section #portal-column-one{
+  width: 444px;
+  margin-top: 60px;
+}
+
+.secao-tres-colunas.portaltype-service #portal-column-content,
+.secao-tres-colunas.portaltype-topic #portal-column-content,
+.secao-tres-colunas.portaltype-section #portal-column-content {
+  width: 100%;
+  margin-left: 0;
+  clear: both;
+  position: static;
+}
+
+
+/* Ajusta background do portlet */
+.portletNavigationTree dd {
+  background: url("++resource++secoes.static/images/menu-bg.jpg");
+}
+
+
+/* Ajusta posição das ULs */
+
+.portletNavigationTree {
+  position: relative;
+}
+
+.portletNavigationTree ul {
+  overflow: hidden;
+}
+
+
+
+/* Customiza navegação de primeiro nível */
+
+.secao-duas-colunas.portaltype-service #portal-column-one,
+.secao-duas-colunas.portaltype-topic #portal-column-one,
+.secao-duas-colunas.portaltype-section #portal-column-one,
+.portaltype-topic #portal-column-one  {
+  width: 371px;
+  margin-top: 60px;
+}
+
+.secao-duas-colunas.portaltype-service #portal-column-content,
+.secao-duas-colunas.portaltype-topic #portal-column-content,
+.secao-duas-colunas.portaltype-section #portal-column-content,
+.portaltype-topic #portal-column-content {
+  width: 100%;
+  margin-left: 0;
+  clear: both;
+  position: static;
+}
+.portaltype-topic .managePortletsLink{
+  margin-top: 5px;
+  clear: both;
+}
+
+.portletNavigationTree .navTreeLevel0 {
+  width: 190px;
+}
+
+.portaltype-section .portletNavigationTree .navTreeLevel0 {
+  float: none;
+}
+
+.portletNavigationTree .navTreeLevel0 li {
+  border-bottom: 1px solid #7c7c7c;
+  margin: 0;
+}
+
+.portletNavigationTree .navTreeLevel0 li a {
+  color: #ffffff;
+  font-size: 1.02em;
+  display: table;
+  height: 52px;
+  background: #5b5b5b;
+  padding: 0 5px 0 56px;
+  transition: background .2s linear;
+  -moz-transition: background .2s linear;
+  -ms-transition: background .2s linear;
+  -o-transition: background .2s linear;
+  -webkit-transition: background .2s linear;
+}
+
+.portletNavigationTree .navTreeLevel0 li a span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li a:hover,
+dl.portlet ul.navTree.navTreeLevel0 li.navTreeItemInPath a,
+dl.portlet ul.navTree.navTreeLevel0 li.treeCurrentItem a {
+  background: #01a4b7;
+  border-left-color: #07c5db;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li a:hover,
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.navTreeItemInPath a,
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.treeCurrentItem a {
+  background: #e37d02;
+  border-left-color: #ff8b00;
+}
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li a:hover,
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.navTreeItemInPath a,
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.treeCurrentItem a {
+  background: #919e02;
+  border-left-color: #abba00;
+}
+
+/* Customiza navegação de segundo nível */
+
+.portletNavigationTree .navTreeLevel1,
+.portletNavigationTree .navTreeLevel2,
+.portletNavigationTree .navTreeLevel3 {
+  width: 190px;
+  border: 1px solid #8d8d8d;
+  margin-left: -1px;
+}
+.navTreeLevel1 li, .navTreeLevel2 li{
+  position:relative;
+}
+.navTreeLevel1 li:before, .navTreeLevel2 li:before{
+  content: "";
+  position:absolute;
+  top: 18px;
+  left: 9px;
+  font-size: 33px;
+  color: #f00;
+  width: 6px;
+  height: 6px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #f00;
+}
+
+.portletNavigationTree .navTreeLevel1 li,
+.portletNavigationTree .navTreeLevel2 li,
+.portletNavigationTree .navTreeLevel3 li {
+  background: #e9e9e9;
+  border-bottom: 1px solid #c4c4c4;
+  font-size: 1em;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.portletNavigationTree .navTreeLevel1 li a,
+.portletNavigationTree .navTreeLevel2 li a,
+.portletNavigationTree .navTreeLevel3 li a {
+  color: #333;
+  padding: 12px 0 12px 11px;
+  display: inline-block !important;
+  background: transparent;
+  width: 150px;
+}
+
+.portletNavigationTree .navTreeLevel1 li:hover,
+.portletNavigationTree .navTreeLevel1 li a:hover,
+.portletNavigationTree .navTreeLevel2 li:hover,
+.portletNavigationTree .navTreeLevel2 li a:hover,
+.portletNavigationTree .navTreeLevel3 li:hover,
+.portletNavigationTree .navTreeLevel3 li a:hover,
+.portletNavigationTree .navTreeLevel1 li.treeCurrentItem,
+.portletNavigationTree .navTreeLevel2 li.treeCurrentItem,
+.portletNavigationTree .navTreeLevel1 li.navTreeItemInPath,
+.portletNavigationTree .navTreeLevel2 li.navTreeItemInPath{
+  color: red !important;
+  background: #BBB;
+}
+
+/* Customiza navegação de quarto nível */
+
+.portletNavigationTree .navTreeLevel2 li.topic.treeCurrentItem {
+  list-style: none;
+}
+
+.portletNavigationTree .navTreeLevel2 li.topic.treeCurrentItem a {
+  padding-bottom: 32px;
+}
+
+.portletNavigationTree .navTreeLevel3,
+.portletNavigationTree .navTreeLevel3 li {
+  border: 0;
+}
+
+.portletNavigationTree .navTreeLevel3 li.level4.service a {
+  padding: 0 0 0 18px;
+  margin: 0;
+}
+
+
+
+/* Ícones do primeiro nível de menu */
+
+dl.portlet ul.navTree.navTreeLevel0 li.casa-e-moradia a {
+  background-image: url("++resource++secoes.static/images/cid-casa-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.rua-e-bairro a {
+  background-image: url("++resource++secoes.static/images/cid-rua-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.familia-e-assistencia-social a {
+  background-image: url("++resource++secoes.static/images/cid-familia-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.transportes a {
+  background-image: url("++resource++secoes.static/images/cid-transportes-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.financas a {
+  background-image: url("++resource++secoes.static/images/cid-financas-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.trabalho a {
+  background-image: url("++resource++secoes.static/images/cid-seguranca-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.saude-e-bem-estar a {
+  background-image: url("++resource++secoes.static/images/cid-saude-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.educacao a {
+  background-image: url("++resource++secoes.static/images/cid-educacao-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.cultura a {
+  background-image: url("++resource++secoes.static/images/cid-cultura-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.esportes-e-lazer a {
+  background-image: url("++resource++secoes.static/images/cid-esportes-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.animais a {
+  background-image: url("++resource++secoes.static/images/cid-animais-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+dl.portlet ul.navTree.navTreeLevel0 li.seguranca a {
+  background-image: url("++resource++secoes.static/images/cid-trabalho-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+
+/* Empresa */
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.abertura-de-empresas a {
+  background-image: url("++resource++secoes.static/images/emp-empresas-mini.png");
+  background-position:  7px 10px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.nota-fiscal-paulistana a {
+  background-image: url("++resource++secoes.static/images/emp-nota-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.programas-e-beneficios a {
+  background-image: url("++resource++secoes.static/images/emp-programas-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.alvaras-certidoes-e-licencas a {
+  background-image: url("++resource++secoes.static/images/emp-alvara-mini.png");
+  background-position:  7px 5px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.impostos-e-taxas a {
+  background-image: url("++resource++secoes.static/images/emp-impostos-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.cadastros a {
+  background-image: url("++resource++secoes.static/images/emp-cadastros-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.licitacoes-e-fornecedores a {
+  background-image: url("++resource++secoes.static/images/emp-licitacoes-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.consultas-declaracoes-e-normas a {
+  background-image: url("++resource++secoes.static/images/emp-consultas-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.legislacao a {
+  background-image: url("++resource++secoes.static/images/emp-cursos-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.empreendedorismo a {
+  background-image: url("++resource++secoes.static/images/emp-empreendedor-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.oportunidades a {
+  background-image: url("++resource++secoes.static/images/emp-oportunidades-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-empresa dl.portlet ul.navTree.navTreeLevel0 li.cursos a {
+  background-image: url("++resource++secoes.static/images/emp-cursos-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+
+/* Turista */
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.compras a {
+  background-image: url("++resource++secoes.static/images/tur-compras-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.gastronomia a {
+  background-image: url("++resource++secoes.static/images/tur-gastronomia-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.noite a {
+  background-image: url("++resource++secoes.static/images/tur-noite-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.negocios a {
+  background-image: url("++resource++secoes.static/images/tur-negocios-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.atracoes a {
+  background-image: url("++resource++secoes.static/images/tur-atracoes-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.roteiros a {
+  background-image: url("++resource++secoes.static/images/tur-roteiros-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+.section-turista dl.portlet ul.navTree.navTreeLevel0 li.informacoes a {
+  background-image: url("++resource++secoes.static/images/tur-informacoes-mini.png");
+  background-position:  7px 6px;
+  background-repeat: no-repeat;
+}
+
+/*/*Área de conteúdo*/
+
+.portaltype-topic #portal-columns,
+.portaltype-service #portal-columns{
+  background: url("++resource++secoes.static/images/bg-checkers.png") repeat-x;
+}
+.section-cidadao #content .titulo_principal{
+  background: url("++resource++secoes.static/images/header-page.png") no-repeat 0 0 transparent;
+  position: absolute;
+  height: 57px;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+.section-empresa #content .titulo_principal{
+  background: url("++resource++secoes.static/images/header-page.png") no-repeat 0 -65px transparent;
+  position: absolute;
+  height: 57px;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+.section-turista #content .titulo_principal{
+  background: url("++resource++secoes.static/images/header-page.png") no-repeat 0 -130px transparent;
+  position: absolute;
+  height: 57px;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+.userrole-authenticated.portaltype-topic #content .titulo_principal{
+  height: 57px;
+  margin:0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.userrole-authenticated.portaltype-service #content .titulo_principal{
+  margin:0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.template-topic_view .portalMessage,
+.template-service_view .portalMessage{
+  position: absolute;
+  width: 100%;
+}
+.userrole-authenticated #content .titulo_principal h1{
+  color: #FFF;
+  letter-spacing: 0;
+  font-weight: normal;
+  margin:8px 0 0 29px;
+  font-size: 1.95em;
+  padding: 0;
+}
+#content .titulo_principal h1{
+  color: #FFF;
+  letter-spacing: 0;
+  font-weight: normal;
+  padding:8px 0 0 29px;
+  font-size: 1.95em;
+  margin:0;
+}
+#content .titulo_principal h1 span{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.userrole-authenticated #content #servicos{
+  background: #fff;
+  font-size: 1em;
+  padding-left: 22px;
+  padding-top: 16px;
+  margin-top: 45px;
+}
+#content #servicos{
+  background: #fff;
+  font-size: 1em;
+  padding-left: 22px;
+  padding-top: 16px;
+  margin-top: 4px;
+}
+#content #servicos a{
+  color: #FE0000;
+}
+#content #servicos header{
+  border-bottom: 3px black double;
+  margin-bottom: 18px;
+  padding: 0 0 0.3em;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+#content #servicos header h2 {
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 1.9em;
+  line-height: normal;
+}
+#content #topicos img {
+  float: right;
+  margin-top: 3px;
+  position: relative;
+  z-index: -1;
+  margin-right: -5px;
+}
+.userrole-anonymous #content #topicos img{
+  margin-top: -25px;
+}
+.pmsp-txt-dstaq-1 {
+  margin: 20px 0;
+  padding: 20px 20px;
+  border: 1px dotted #b2b2b2;
+  background-color: #fae8e8;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+.pmsp-trbk {
+  font-size: 1.06em;
+  font-weight: 600;
+  margin-top: 1em;
+  text-decoration: none;
+}
+
+
+/* ==========================================================================
+   Adaptações responsivas
+   ========================================================================== */
+
+
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+  #plone-content #portal-column-one .portletNavigationTree ul {
+    float: left;
+  }
+
+  .portletNavigationTree .navTreeLevel0 {
+    width: 180px;
+  }
+
+  dl.portlet ul.navTree.navTreeLevel0 li a {
+    width: 114px;
+  }
+  /* Customiza navegação de terceiro nível */
+
+  .secao-tres-colunas .portletNavigationTree .navTreeLevel0 {
+    width: 62px;
+  }
+
+}
+
+@media only screen and (min-width : 992px) {
+  .secao-tres-colunas.portaltype-service #portal-column-content,
+  .secao-tres-colunas.portaltype-topic #portal-column-content,
+  .secao-tres-colunas.portaltype-section #portal-column-content {
+    width: 506px;
+    margin-left: -506px;
+    clear: none;
+    position: relative;
+    margin-top: 60px;
+  }
+  .secao-duas-colunas.portaltype-service #portal-column-content,
+  .secao-duas-colunas.portaltype-topic #portal-column-content,
+  .secao-duas-colunas.portaltype-section #portal-column-content {
+    width: 579px;
+    margin-left: -579px;
+    clear: none;
+    position: absolute;
+    margin-top: 60px;
+  }
+  .portaltype-service #content .titulo_principal,
+  .portaltype-topic #content .titulo_principal{
+    margin-left: -384px;
+    position: absolute;
+    margin-top: -60px;
+  }
+  .portaltype-service.secao-tres-colunas #content .titulo_principal,
+  .portaltype-topic.secao-tres-colunas #content .titulo_principal{
+    margin-left: -454px;
+    position: absolute;
+    margin-top: -60px;
+  }
+  .userrole-authenticated.portaltype-topic #content .titulo_principal,
+  .userrole-authenticated.portaltype-service #content .titulo_principal{
+    margin-left: -384px;
+    float: left;
+    width: 390px;
+    margin-top: -60px;
+  }
+  .userrole-authenticated.portaltype-topic.secao-tres-colunas #content .titulo_principal,
+  .userrole-authenticated.portaltype-service.secao-tres-colunas #content .titulo_principal{
+    margin-left: -454px;
+    float: left;
+    width: 100%;
+    margin-top: -60px;
+  }
+}

@@ -28,7 +28,7 @@
 
   <!-- Registra pasta de arquivos estáticos -->
   <browser:resourceDirectory
-      name="secoes.static"
+      name="institucionais.static"
       directory="static"
       />
 

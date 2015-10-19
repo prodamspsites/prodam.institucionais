@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <object name="portal_skins" meta_type="Plone Skins Tool">
-  <object name="secoes.templates" meta_type="Filesystem Directory View"
+  <object name="institucionais.templates" meta_type="Filesystem Directory View"
         directory="prodam.institucionais:templates"/>
   <skin-path name="*">
-    <layer name="secoes.templates" insert-after="custom"/>
+    <layer name="institucionais.templates" insert-after="custom"/>
   </skin-path>
 </object>

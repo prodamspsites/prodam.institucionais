@@ -13,7 +13,7 @@ long_description = (
 setup(
     name='prodam.institucionais',
     version=version,
-    description="Produto de Secoes para portais prodam sp sites",
+    description="Produto de policy para sites prodam sp",
     long_description=long_description,
     classifiers=[
         "Development Status :: 1 - Planning",
@@ -32,7 +32,7 @@ setup(
         "Topic :: Multimedia",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    keywords='prodam secoes',
+    keywords='prodam institucionais',
     author='prodam.portal',
     author_email='email@domain.com.br',
     url='https://github.com/prodamspsites/prodam.institucionais',

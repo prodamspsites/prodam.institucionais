@@ -13,7 +13,7 @@ long_description = (
 setup(
     name='prodam.institucionais',
     version=version,
-    description="Produto de policy para sites prodam sp",
+    description="Produto de policy para sites prodam",
     long_description=long_description,
     classifiers=[
         "Development Status :: 1 - Planning",

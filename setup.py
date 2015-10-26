@@ -45,6 +45,7 @@ setup(
     install_requires=[
         'prodam.portal',
         'Products.CMFPlone >=4.3',
+        'plone.app.transmogrifier',
         'setuptools',
         'plone.app.contenttypes<1.1a1',
     ],

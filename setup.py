@@ -45,6 +45,9 @@ setup(
     install_requires=[
         'prodam.portal',
         'Products.CMFPlone >=4.3',
+        'collective.jsonmigrator',
+        'plone.app.transmogrifier',
+        'transmogrify.dexterity',
         'setuptools',
         'plone.app.contenttypes<1.1a1',
     ],

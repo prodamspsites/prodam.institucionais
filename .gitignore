@@ -28,6 +28,7 @@ src/prodam.portal
 src/prodam.tema
 src/prodam.tiles
 src/prodam.secoes
+src/institucionais.tema
 default.cfg
 cache.cfg
 development.cfg

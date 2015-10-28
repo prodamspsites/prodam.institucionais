@@ -44,6 +44,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'prodam.portal',
+        'institucionais.tema',
         'Products.CMFPlone >=4.3',
         'collective.jsonmigrator',
         'plone.app.transmogrifier',

@@ -1,0 +1,50 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="prodam.institucionais">
+
+  <!-- Viewlets -->
+  <browser:viewlet
+      name="plone.logo"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class=".logo.LogoViewlet"
+      permission="zope2.View"
+      layer="prodam.institucionais.interfaces.IBrowserLayer"
+      />
+
+  <browser:viewlet
+      name="plone.analytics"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      class=".analytics.AnalyticsViewlet"
+      permission="zope2.View"
+      layer="prodam.interfacesnstitucionais.interfaces.IBrowserLayer"
+      />
+
+  <browser:viewlet
+      name="prodam.institucionais.logo"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class="plone.app.layout.viewlets.common.ViewletBase"
+      permission="zope2.View"
+      template="templates/barra.pt"
+      layer="prodam.institucionais.interfaces.IBrowserLayer"
+      />
+
+  <browser:viewlet
+      name="prodam.institucionais.barracinza"
+      manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+      class="plone.app.layout.viewlets.common.ViewletBase"
+      permission="zope2.View"
+      template="templates/logo.pt"
+      layer="prodam.institucionais.interfaces.IBrowserLayer"
+      />
+
+  <browser:viewlet
+      name="prodam.institucionais.footer"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      class=".viewlets.FooterPrefeitura"
+      layer="prodam.institucionais.interfaces.IBrowserLayer"
+      template="templates/footer_institucionais.pt"
+      permission="zope2.View"
+      />
+
+</configure>

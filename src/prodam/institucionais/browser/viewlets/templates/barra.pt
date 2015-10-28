@@ -1,0 +1,13 @@
+<div id="topo">
+    <div id="bprint">
+        <img src="//misc.prefeitura.sp.gov.br/img/bprint.png" alt="Barra de Impressão" width="200" height="40">
+    </div>
+    <div id="ferramentas">
+        <a href="http://www.capital.sp.gov.br/">
+            <img src="//misc.prefeitura.sp.gov.br/img/logo_portal.gif" alt="Portal da Prefeitura de São Paulo" width="211" height="45" border="0" class="logo">
+        </a>
+        <div class="cont">
+            <div id="descricao"><!-- --></div>
+        </div>
+    </div>
+</div>

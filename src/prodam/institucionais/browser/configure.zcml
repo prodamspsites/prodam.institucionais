@@ -2,5 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser">
 
+  <!-- Viewlets -->
+  <include package='.viewlets' />
 
 </configure>

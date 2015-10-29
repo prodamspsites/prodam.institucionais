@@ -5,22 +5,6 @@
 
   <!-- Viewlets -->
   <browser:viewlet
-      name="plone.logo"
-      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-      class=".logo.LogoViewlet"
-      permission="zope2.View"
-      layer="prodam.institucionais.interfaces.IBrowserLayer"
-      />
-
-  <browser:viewlet
-      name="plone.analytics"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      class=".analytics.AnalyticsViewlet"
-      permission="zope2.View"
-      layer="prodam.interfacesnstitucionais.interfaces.IBrowserLayer"
-      />
-
-  <browser:viewlet
       name="prodam.institucionais.logo"
       manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
       class="plone.app.layout.viewlets.common.ViewletBase"

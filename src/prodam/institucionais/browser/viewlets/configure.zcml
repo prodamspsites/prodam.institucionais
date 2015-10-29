@@ -25,7 +25,7 @@
   <browser:viewlet
       name="prodam.institucionais.footer"
       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      class=".viewlets.FooterPrefeitura"
+      class="plone.app.layout.viewlets.common.ViewletBase"
       layer="prodam.institucionais.interfaces.IBrowserLayer"
       template="templates/footer_institucionais.pt"
       permission="zope2.View"
